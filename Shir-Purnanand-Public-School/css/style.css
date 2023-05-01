@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    color: #000;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.display {
+    display: inline-block;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 0 0 0;
+}
+
+span {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 40px;
+    color: #222;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 10px;
+}
+
+.sub-pera {
+    color: #e16c6c;
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 0px 190px;
+}
+
+.btn {
+    background-color: #d85252;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: #fff;
+    margin: 20px 0px 0px;
+}
+
+h4,
+h5 {
+    font-family: 'Dosis', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.vertical-top {
+    vertical-align: top;
+}
+
+.section {
+    padding: 64px 0px;
+}
+
+/*Top Header Section*/
+.top-header {
+    width: 100%;
+    background-color: #495052;
+    padding: 6px 0px;
+}
+
+.header-right {
+    float: right;
+}
+
+.top-header span {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.top-header span i {
+    font-size: 20px;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+/*Navbar Section*/
+nav {
+    width: 100%;
+    background-color: #fff;
+}
+
+.logo {
+    width: 5%;
+}
+
+.logo img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.links {
+    float: right;
+}
+
+.links .highlight {
+    color: #ec774b;
+}
+
+.links ul li {
+    display: inline-block;
+}
+
+.links ul li a {
+    padding: 20px 10px;
+    color: #000;
+}
+
+.contact a {
+    background: #ec774b;
+    padding: 10px 15px !important;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+/*Center-Image-Section*/
+.center-text {
+    position: absolute;
+    top: 42%;
+    left: 32%;
+    font-size: 30px;
+    font-family: 'dosis', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.center-image {
+    width: 100%;
+    height: 100%;
+    background: url(../images/asset\ 1.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+
+/*Features-Section*/
+.features-card {
+    width: 25%;
+    padding: 40px 8px;
+    margin-left: -4px;
+    background: #fcebff;
+}
+
+.features-card i {
+    font-size: 40px;
+    color: #d85252;
+}
+
+.features-card h2 {
+    margin: 20px 0px
+}
+
+.color-card-1 {
+    background: #fcdcdc;
+}
+
+.features-card .fa-book {
+    color: #c389ce;
+}
+
+/*About Section*/
+.about-text,
+.about-images {
+    width: 48%;
+    padding: 0px 10px;
+}
+
+.about-text p {
+    text-align: justify;
+}
+
+.about-images img {
+    width: 100%;
+}
+
+/*Activities Section*/
+.our-activities-section {
+    background: url(../images/asset\ 23.png);
+}
+
+.activities {
+    width: 24%;
+    background-color: #fff;
+    margin: 32px 0px 0px 8px;
+    vertical-align: top;
+}
+
+.activities img {
+    width: 100%;
+}
+
+.activities-text {
+    padding: 15px;
+}
+
+.activities-text h3 {
+    margin-bottom: 12px;
+    border-bottom: 1px dashed #b366c2;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.activities-text a.highlight {
+    background-color: #b366c2;
+}
+
+/*Benefit Section*/
+.benefit-card {
+    width: 30%;
+    padding: 0px 10px;
+}
+.benefit-card-1{
+    vertical-align: top;
+}
+
+.benefit-school {
+    margin: 64px 0px;
+}
+
+.benefit-card img {
+    width: 80%;
+}
+
+.benefit-icon {
+    width: 21%;
+    border: 1px dashed red;
+    padding: 2px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.benefit-icon i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    background: #d85252;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.highlight i {
+    background: #b366c2;
+}
+
+.benefit-text {
+    width: 75%;
+    margin-left: 5px;
+}
+
+.benefit-text h4 {
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.benefit-card-1 {
+    padding-bottom: 80px;
+}
+
+/*Mission-secrion*/
+.mission-box {
+    background: url(../images/asset\ 24.jpeg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+.mission-section {
+    padding: 48px;
+}
+
+.mission-section p i {
+    color: #d85252;
+}
+
+/*School-Performance-Section*/
+.school-section {
+    background: url(../images/asset\ 25.jpeg);
+    margin: 40px 0px;
+}
+
+.box-1 {
+    border: 1px solid #fff;
+    padding: 20px;
+    width: 23%;
+    margin-left: 10px;
+}
+
+.box-1 i {
+    color: #e96e32;
+    font-size: 40px;
+}
+
+.box-1 h4 {
+    color: #e96e32;
+    font-size: 40px;
+    margin: 7px 0;
+    font-weight: 600;
+}
+
+.box-1 p {
+    color: #fff;
+}
+
+/*Query-Section*/
+.query-section {
+    padding: 30px;
+}
+
+.query-section,
+.query-images {
+    width: 45%;
+}
+
+.query-section form input {
+    height: 44px;
+    width: 48%;
+    margin: 10px 0px;
+    border: 1px solid #d85252;
+    padding: 0px 10px;
+    outline: none;
+}
+
+textarea {
+    width: 97%;
+    margin: 10px 0px;
+    border: 1px solid #d85252;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.query-images img {
+    width: 100%;
+}
+
+/*Our-Gallery-Section*/
+.gallery-image {
+    width: 24%;
+    margin: 40px 0px 0px 8px;
+}
+
+.gallery-image img {
+    width: 100%;
+}
+
+/*Footer Section*/
+footer {
+    background: #222;
+    color: #e96e32;
+}
+
+.footer-box {
+    width: 24%;
+    margin: 80px 0px 80px 0px;
+}
+
+.footer-box h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #e96e32;
+}
+
+.footer-box ul li a {
+    color: #aaa;
+    width: 90%;
+    border-bottom: 1px solid white;
+    padding: 6px 0px;
+}
+
+.footer-box p {
+    color: #aaa;
+}
+
+.footer-box p b {
+    color: #e96e32;
+    display: block;
+}
+
+.footer-box ul li a i {
+    margin-right: 5px;
+}
+
+.footer-social ul li a i {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    border: 1px solid #aaa;
+    color: #fff;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.footer-box i.fa-facebook-f {
+    background: #38539b;
+}
+
+.footer-box i.fa-twitter {
+    background: #4ea6ea;
+}
+
+.footer-box i.fa-instagram {
+    background-image: linear-gradient( 10deg,#efa513,#9007dc);
+}
+
+.footer-box i.fa-linkedin {
+    background: #007ab3;
+}
+
+/*Sub-Footer*/
+.sub-footer {
+    background: #000;
+    padding: 12px;
+    border-top: 1px solid #aaa;
+}
+
+.sub-footer p {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.sub-footer p i {
+    color: #e96e32;
+}
+/* The End*/
